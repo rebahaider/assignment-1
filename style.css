@@ -1,0 +1,29 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header{
+    background-image: url('resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    ba
+}
+.header-first-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    padding-top: 150px;
+}
+.header-second-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    margin-right: 344px;
+    margin-left: 344px;
+}
