@@ -3,13 +3,13 @@ body{
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
 }
-
-
 header{
     background-image: url('resources/Banner\ Image.png');
     background-repeat: no-repeat;
-    background-position: center;
     height: 600px;
+    width: 1320px;
+    display: block;
+    margin: 0 auto;
 }
 .header-first-title{
     color: #FFF;
@@ -23,6 +23,98 @@ header{
     text-align: center;
     font-size: 72px;
     font-weight: 900;
-    margin-right: 344px;
-    margin-left: 344px;
+    padding-right: 344px;
+    padding-left: 344px;
+}
+.part-1 h1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+.part-1 p{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.part-1 h2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.part-1 img{
+    display: block;
+    margin: 0 auto;
+}
+.part-2{
+    background-image: url('resources/Vectorrr.png');
+    display: block;
+    margin: 100px auto;
+    height: 600px;
+    width: 1320px;
+}
+.total-part{
+    display: flex;
+    gap: 94px;
+}
+.left-part{
+    margin-top: 125px;
+    margin-left: 125px;
+}
+.left-part h1{
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 900;
+}
+.left-part p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+.left-part a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.right-part{
+    display: block;
+    margin-top: 80px;
+    margin-right: 80px;
+}
+.part-3{
+    width: 1320px;
+    height: 482px;
+    background-color: lightpink;
+    display: block;
+    margin: 0 auto;  
+}
+.part-3 h3{
+    padding-top: 150px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+.part-3 .clr{
+    color: #F00;
+}
+.btn-clr{
+    background-color: #F00;
+    padding: 16px 32px;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+}
+.btn{
+    text-align: center;  
+}
+.part-6{
+    width: 1600px;
 }
