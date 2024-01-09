@@ -117,10 +117,10 @@ header{
 }
 .part-6{
     width: 1320px;
-    height: 7335px;
     display: block;
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .part-6 h3{
     color: #F00;
@@ -140,4 +140,50 @@ header{
     font-weight: 400;
     width: 896px;
     margin-bottom: 20px;
+}
+.part-7{
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0 auto;
+}
+.part-7 img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.part-7 h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+}
+.part-7 p{
+   color: rgba(7, 2, 17, 0.60);
+   text-align: center;
+   font-size: 20px;
+   font-family: Inter;
+   font-weight: 400;
+   padding: 0 212px;
+}
+.button-style{
+    text-align: center;
+    row-gap: 0;
+}
+.text{
+    border-radius: 50px 0 0 50px;
+    padding: 25px 100px;
+    background-color: #FFF;
+    
+}
+.button-shape{
+    background-color: #F00;
+    border-radius: 0 50px 50px 0;
+    padding: 20px 50px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: center;
 }
